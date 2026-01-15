@@ -1,0 +1,26 @@
+{
+  "name": "CHECK-IN, GO!",
+  "short_name": "CheckinGO",
+  "description": "Seu companheiro de viagem para África do Sul - Câmbio, guias, pronúncia e tradução em tempo real",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#FDFBF7",
+  "theme_color": "#007749",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["travel", "education"],
+  "screenshots": [
+    {
+      "src": "/screenshot1.png",
+      "sizes": "540x720",
+      "type": "image/png"
+    }
+  ]
+}

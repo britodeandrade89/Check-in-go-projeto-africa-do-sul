@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: checkingo
+    env: node
+    region: us-east
+    plan: free
+    buildCommand: "npm install && npm run build"
+    startCommand: "npm start"
+    envVars:
+      - key: REACT_APP_GOOGLE_API_KEY
+        sync: false
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+    healthCheck:
+      path: /health
+      protocol: http
+      protocol: http
